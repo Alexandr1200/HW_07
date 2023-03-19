@@ -10,4 +10,4 @@ setup(
     author_email='uchiha1200@gmail.com',
     license='MIT',
     packages=find_namespace_packages(),
-    entry_points={'console_scripts':['sort = clean_folder.clean.py:sort']})
+    entry_points={'console_scripts':['sort = clean_folder.clean:sort']})
